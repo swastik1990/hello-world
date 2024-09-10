@@ -10,3 +10,32 @@ It is an experiment. Interested on python programming and object-relational data
 
 - **hello-world.py** = Contains example of `hello-world` in python.
 - **hello-world.js** = Contains example of `hello-world` in javascript.
+- **hello-world.c** = contains example of `hello-world` in C.
+
+## Run the File:
+
+To run the `python` file, simply apply the following command in a terminal:
+
+```bash
+python3 hello-world.py
+```
+
+To run the `javascript` file, please use following command:
+
+```bash
+js hello-world.js
+```
+
+To run the `C` program file, first compile the code using **gcc**:
+
+```bash
+gcc hello-world.c -o hello.out
+```
+
+    The above execution will output the compiled code in `hello.out`.
+    
+    Now run the compiled code in the terminal:
+    
+    ```bash
+    ./hello.out
+    ```
