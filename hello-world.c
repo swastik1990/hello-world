@@ -5,7 +5,7 @@ int main() {
    char msg1[10] = "hello, ";
    char msg2[10] = "world!";
    
-   //concatenate the strings
+   // Concatenate the strings
    strcat(msg1, msg2);
    
    // printf() displays the string inside quotation
